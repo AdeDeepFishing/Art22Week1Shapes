@@ -6,15 +6,15 @@ background(#E5E7EF);
 noStroke();
 
 //left red triangle
-fill(#B30006);
+fill(#ec5945);
 triangle(20, 20, 360, 20, 20, 700);
 
 //right blue triangle
-fill(#0A17B9);
+fill(#0b2ecc);
 triangle(360, 20, 700, 20, 700, 700);
 
 //middle yellow triangle
-fill(#DBD335);
+fill(#d69a1f);
 triangle(360, 20, 20, 700, 700, 700);
 
 //middle up white triangle
@@ -22,13 +22,15 @@ fill(255);
 triangle(360, 20, 280, 180, 440, 180);
 
 //left up black square
-fill(0);
+fill(#1f141e);
 square(60, 80, 160);
 
 //right up black circle
+fill(#191826);
 circle(580, 160, 160);
 
 //middle black stand rectangle
+fill(#181214);
 rect(280, 180, 160, 480);
 
 //middle black lay rectangle
